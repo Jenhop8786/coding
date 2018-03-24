@@ -1,5 +1,5 @@
 require 'open-uri'
-require 'Nokogiri'
+require 'nokogiri'
 
 require_relative './coding/version'
 require_relative './coding/schools.rb'

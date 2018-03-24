@@ -5,6 +5,7 @@ class Coding::CLI #<- class
     system("clear")
     list_schools
     menu
+    goodbye
   end#of call
 
 
@@ -33,11 +34,15 @@ class Coding::CLI #<- class
     elsif input == "list"
     list_schools
   elsif input == "exit"
+    goodbye
     else
     puts "Not sure what you want, type list or exit."
   end#puts
   end#loop
   end#menu
 
+def goodbye
+  puts "Thanks for visiting, check back later for an updated list!"
+end#goodbye
 
 end#class

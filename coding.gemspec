@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{This gem scrapes the pages of individual schools on the Switchup website (at https://www.switchup.org)}
   spec.description   = %q{This gem scrapes the pages of individual schools on the Switchup website (at https://www.switchup.org) to view a list of the Top Coding Schools along with information about each of the schools given on the list to choose from.  }
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://rubygems.org/"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
